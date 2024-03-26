@@ -4,12 +4,13 @@ return {
   -- { "nanotech/jellybeans.vim" },
   -- { "shaunsingh/nord.nvim" },
   -- { "metalelf0/jellybeans-nvim" },
-  { "rose-pine/neovim", name = "rose-pine" },
+  -- { "rose-pine/neovim", name = "rose-pine" },
+  { "Mofiqul/vscode.nvim" },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "vscode",
       dark_variant = "main",
     },
   },
